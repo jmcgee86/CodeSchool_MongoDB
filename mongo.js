@@ -28,18 +28,18 @@ db.monsters.find({"name": "Frank"})
 db.monsters.find({"attacks": "bite"})
 
 //find monster based on defense stat
+
 db.monsters.find({"stats.defense": 2})
 
-var db = './mongod';
 
-function addMonster(name, health, lastFought, attacks, stats){
+function addMonster(name, health, lastFought, attacks, stats, db){
     db.monsters.insert({
-        name: "",
-        health: "",
-        lastFought: "",
-        attacks: [],
-        stats:{"attack":"",
-            "defense":""    
+        "name": name,
+        "health": health,
+        "lastFought": lastFought,
+        "attacks": attacks,
+        "stats":{"attack": stats.attack, 
+            "defense": stats.defense
         }
     })
 }

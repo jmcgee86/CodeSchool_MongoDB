@@ -1,0 +1,22 @@
+{
+  "name": "codeshcool_mongodb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jmcgee86/CodeSchool_MongoDB.git"
+  },
+  "author": "Jim McGee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jmcgee86/CodeSchool_MongoDB/issues"
+  },
+  "homepage": "https://github.com/jmcgee86/CodeSchool_MongoDB#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
